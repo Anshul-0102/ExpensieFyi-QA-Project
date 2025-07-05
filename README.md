@@ -1,2 +1,3 @@
 # ExpensieFyi-QA-Project
- Full-Stack QA Project for Expense.fyi • Manual &amp; Automation Testing with AI Integration (Cypress • Selenium • Python)
+ Full-Stack QA Project for Expense.fyi • Manual &amp; Automation Testing with AI Integration (Cypress • Selenium • Python)  
+ This repository showcases my end-to-end QA experience across web and API testing. It includes manual test cases, automation scripts (Selenium), API tests (Postman), and performance testing (JMeter). Each project folder contains clear documentation, bug reports, and test artifacts. Highlights include functional and UI testing, regression automation, load testing, and structured bug tracking—demonstrating my commitment to quality, reliability, and thorough QA practices.
