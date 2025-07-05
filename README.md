@@ -32,16 +32,31 @@ This project simulates a QA internship challenge for a web-based expense tracker
 
 ## 📂 Folder Structure
 ```bash
-.
-├── manual/                  # Test Plan, Test Cases
+ExpenseFyi-QA-Complete/
+├── .idea/                                 # IntelliJ project settings (optional)
+├── src/
+│   └── test/java/
+│       └── LoginTest.java                 # Selenium automated UI test (Java + TestNG)
+├── postman/
+│   └── expensefyi-api-tests.json          # Postman collection (for future REST API testing)
 ├── automation/
-│   ├── cypress/             # Cypress Tests
-│   └── selenium/            # Selenium Tests (Java)
-├── ai/                      # AI Test Case Summarizer
-├── bugs/                    # Bug Reports
-├── assets/                  # Screenshots
-└── README.md
-```
+│   ├── cypress/
+│   │   └── login.spec.js                  # Cypress test for login workflow
+│   └── selenium/
+│       └── LoginTest.java                 # Selenium test (duplicate for isolated run)
+├── ai/
+│   └── test_case_summarizer.py            # AI script to summarize test case coverage
+├── manual-test-cases/
+│   └── Manual_Test_Cases_QA_Project.xlsx  # 40+ filled manual test cases
+├── bugs/
+│   └── Bug_Report.xlsx                    # Bug log with severity, module, and reproducibility
+├── test-plan/
+│   └── TestPlan.md                        # Multi-section test plan document
+├── assets/
+│   └── screenshots/                       # Screenshots for evidence or UI validation
+├── pom.xml                                # Maven configuration for Selenium
+└── README.md                              # Full project guide, execution instructions, resume notes
+
 
 ---
 
