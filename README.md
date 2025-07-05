@@ -107,3 +107,46 @@ python test_case_summarizer.py
 - ✅ Combined manual & automation testing
 - ✅ Integrated AI to enhance QA workflows
 - ✅ Used industry-standard tools: Cypress, Selenium, Python, Jira-style documentation
+
+✅ Features
+Web UI Tests (Selenium + TestNG)
+Valid login
+Invalid login
+Logout functionality
+Access to protected page after login
+API Tests (Postman)
+GET /posts → status 200 + 100 items
+GET /posts/1 → valid response
+POST /posts → post creation
+PUT /posts/1 → post update
+DELETE /posts/1 → deletion
+Manual Test Cases (Excel)
+5+ clear test cases with steps, expected results, and status
+Covers login, logout, API calls
+▶️ How to Run Automated Tests
+Clone the repository:
+git clone https://github.com/YOUR_USERNAME/qa-demo-automation-testing.git
+cd qa-demo-automation-testing
+Run tests:
+mvn test
+Make sure you have Java, Maven, and ChromeDriver installed and configured in PATH.
+
+🧾 Manual Testing
+Open the Excel file:
+
+/manual-test-cases/Manual_Test_Cases_QA_Project.xlsx
+🔗 Postman API Collection
+Open Postman
+Import file:
+/postman/jsonplaceholder-tests.json
+Run the collection or use Collection Runner
+🧪 API Automated Tests (RestAssured)
+These tests are written in Java using the RestAssured library and TestNG.
+
+✅ Test 1 – GET /posts/1
+Verifies status code is 200
+Checks if body contains userId, title, and body
+✅ Test 2 – POST /posts
+Sends a new post with title, body, and userId
+Verifies status code 201
+Confirms the response contains sent values
