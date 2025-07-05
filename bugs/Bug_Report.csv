@@ -1,0 +1,3 @@
+Bug ID,Title,Severity,Module,Steps,Expected Result,Actual Result,Status
+BUG001,Crash on Empty Group Name,High,Group,Leave group name blank > Save,Error message,App crashes,Open
+BUG002,UI Overlap on Mobile,Medium,Dashboard,Resize to mobile view,Proper UI alignment,Elements overlap,Open

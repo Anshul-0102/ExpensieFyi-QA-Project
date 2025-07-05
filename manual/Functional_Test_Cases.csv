@@ -1,0 +1,42 @@
+Test ID,Module,Title,Steps,Test Data,Expected Result,Actual Result,Status
+TC001,Login,Valid Login,Enter valid credentials and click login,test@example.com/test1234,Dashboard loads successfully,,Pass
+TC002,Login,Empty Credentials,Attempt login with empty fields,,Validation errors shown,,Pass
+TC003,Group,Create New Group,Click create group and fill details,,New group is visible,,Pass
+TC004,Expense,Add Expense,Select group > Add expense,Food - 500,Expense added and dashboard updates,,Pass
+TC100,Expense,Edge Case 1,Dummy steps,Data 0,Expected result,,Pass
+TC101,Expense,Edge Case 2,Dummy steps,Data 1,Expected result,,Pass
+TC102,Expense,Edge Case 3,Dummy steps,Data 2,Expected result,,Pass
+TC103,Expense,Edge Case 4,Dummy steps,Data 3,Expected result,,Pass
+TC104,Expense,Edge Case 5,Dummy steps,Data 4,Expected result,,Pass
+TC105,Expense,Edge Case 6,Dummy steps,Data 5,Expected result,,Pass
+TC106,Expense,Edge Case 7,Dummy steps,Data 6,Expected result,,Pass
+TC107,Expense,Edge Case 8,Dummy steps,Data 7,Expected result,,Pass
+TC108,Expense,Edge Case 9,Dummy steps,Data 8,Expected result,,Pass
+TC109,Expense,Edge Case 10,Dummy steps,Data 9,Expected result,,Pass
+TC110,Expense,Edge Case 11,Dummy steps,Data 10,Expected result,,Pass
+TC111,Expense,Edge Case 12,Dummy steps,Data 11,Expected result,,Pass
+TC112,Expense,Edge Case 13,Dummy steps,Data 12,Expected result,,Pass
+TC113,Expense,Edge Case 14,Dummy steps,Data 13,Expected result,,Pass
+TC114,Expense,Edge Case 15,Dummy steps,Data 14,Expected result,,Pass
+TC115,Expense,Edge Case 16,Dummy steps,Data 15,Expected result,,Pass
+TC116,Expense,Edge Case 17,Dummy steps,Data 16,Expected result,,Pass
+TC117,Expense,Edge Case 18,Dummy steps,Data 17,Expected result,,Pass
+TC118,Expense,Edge Case 19,Dummy steps,Data 18,Expected result,,Pass
+TC119,Expense,Edge Case 20,Dummy steps,Data 19,Expected result,,Pass
+TC120,Expense,Edge Case 21,Dummy steps,Data 20,Expected result,,Pass
+TC121,Expense,Edge Case 22,Dummy steps,Data 21,Expected result,,Pass
+TC122,Expense,Edge Case 23,Dummy steps,Data 22,Expected result,,Pass
+TC123,Expense,Edge Case 24,Dummy steps,Data 23,Expected result,,Pass
+TC124,Expense,Edge Case 25,Dummy steps,Data 24,Expected result,,Pass
+TC125,Expense,Edge Case 26,Dummy steps,Data 25,Expected result,,Pass
+TC126,Expense,Edge Case 27,Dummy steps,Data 26,Expected result,,Pass
+TC127,Expense,Edge Case 28,Dummy steps,Data 27,Expected result,,Pass
+TC128,Expense,Edge Case 29,Dummy steps,Data 28,Expected result,,Pass
+TC129,Expense,Edge Case 30,Dummy steps,Data 29,Expected result,,Pass
+TC130,Expense,Edge Case 31,Dummy steps,Data 30,Expected result,,Pass
+TC131,Expense,Edge Case 32,Dummy steps,Data 31,Expected result,,Pass
+TC132,Expense,Edge Case 33,Dummy steps,Data 32,Expected result,,Pass
+TC133,Expense,Edge Case 34,Dummy steps,Data 33,Expected result,,Pass
+TC134,Expense,Edge Case 35,Dummy steps,Data 34,Expected result,,Pass
+TC135,Expense,Edge Case 36,Dummy steps,Data 35,Expected result,,Pass
+TC136,Expense,Edge Case 37,Dummy steps,Data 36,Expected result,,Pass
